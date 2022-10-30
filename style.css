@@ -85,7 +85,7 @@
     .container-sessao1 li{
         text-align: center;
         padding: 5px 0;
-        text-decoration: none;
+        list-style: none;
         border: 1px solid;
         border-radius: 3px;
     }
