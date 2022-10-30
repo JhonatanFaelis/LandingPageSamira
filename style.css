@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Header*/
+
+.container-header{
+    background-color: #000B41;
+    text-align: center;
+}
+
+.container-header h1, h3{
+    color: white;
+    padding-bottom: 25px;
+}
+
+.container-header h1{
+    font-size: 70px;
+}
+
+.container-header h3{
+    font-size: 40px;
+}
+
+.container-header h4{
+    text-transform: uppercase;
+    color: #FD9C38;
+    padding-bottom: 25px;
+}
+
+/*FIM DO HEADER*/
+
+/*SESSAO 1 - SAMIRA E SOBRE ELA.*/
+
+.container-sessao1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-sessao1 li{
+    color: #000B41;
+    font-size: 30px;
+}
+
+/*FIM SESSAO 1*/
+
+/*INICIO SESSAO 2 - CONDIÇÕES ESPECIAIS*/
+
+.container-sessao2{
+    text-align: center;
+    background-color: #000B41;
+}
+
+.container-sessao2 h1{
+    color: white;
+    text-transform: uppercase;
+}
+
+.container-sessao2 h2{
+    color: #FD9C38;
+    padding: 15px 0;
+}
