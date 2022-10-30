@@ -82,6 +82,10 @@
         flex-wrap: wrap;
     }
 
+    .container-sessao2 ul{
+        list-style: none;
+    }
+
     .container-sessao1 li{
         text-align: center;
         padding: 5px 0;
