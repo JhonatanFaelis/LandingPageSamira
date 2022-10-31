@@ -59,3 +59,34 @@ control2.addEventListener('click', () =>{
      elemento2[currentItem2].classList.add("current-element2");
 });    
 });
+
+/*JAVAO para os botoes3*/
+const control3 = document.querySelectorAll('.control3');
+let currentItem3 = 0;
+const elemento3 = document.querySelectorAll('.elemento3');
+const maxItems3 = elemento3.length;
+
+control3.forEach(control3 => {
+control3.addEventListener('click', () =>{
+    const isLeft3 = control3.classList.contains('arrow-left3');
+        if (isLeft3){
+            currentItem3 -=1;
+        } else {
+            currentItem3 += 1;
+        }
+
+     if (currentItem3 >= maxItems3)   {
+        currentItem3 = 0;
+     }
+
+     if (currentItem3 < 0){
+        currentItem3 = maxItems3 - 1;
+     }
+
+     elemento3.forEach(elemento3 => elemento3.classList.remove('current-element3'));
+
+     elemento3[currentItem3].scrollIntoView({inline : "center", behavior:"smooth"});
+
+     elemento3[currentItem3].classList.add("current-element3");
+});    
+});

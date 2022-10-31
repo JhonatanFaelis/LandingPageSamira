@@ -271,6 +271,110 @@
     text-align: center;
 
 }
+/* FINAL SESSAO 4 - RAVENA */
+
+/* SESSAO 5- ALAMEDAS*/
+
+.container-sessao5{
+    margin-top: 10px;
+}
+
+.container-produto3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #000B41;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.sessao5-textos {
+    max-width: 470px;
+    color: #000B41;
+    
+}
+
+.sessao5-textos >h1, h3, h4{
+    padding: 10px 0;
+}
+
+.sessao5-textos > h2{
+    color: #FD9C38;
+}
+
+.container-produto3{
+    position: relative;
+    padding: 5px;
+    margin: 0 auto;
+    
+}
+
+.gallery3{
+    align-items: center;
+    display: flex;
+    max-width: 540px;
+    flex-wrap: nowrap;
+    gap: 5px;
+    margin-top: 25px;
+}
+
+/*Fazer ter uma barra de rolagem aqui.*/
+.gallery-wrapper3{
+    overflow-x: auto;
+}
+
+
+.arrow-left3, .arrow-right3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+
+.arrow-right3{
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+
+}
+
+.arrow-left3:hover, .arrow-right3:hover{
+    opacity: 1;
+}
+
+.elemento3{
+    align-items: center;
+    width: 380px;
+    height: 350px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    transition: all 600ms ease-in-out;
+}
+
+
+
+.current-element3{
+    opacity: 1;
+}
+
+.elemento3 p{
+    color: black;
+    text-align: center;
+
+}
 
 @media screen and (max-width: 758px) {
     .container-header h1{
@@ -330,6 +434,10 @@
         text-align: center;
     }
 
+    .container-produto3 img{
+        max-width: 350px;
+        text-align: center;
+    }
   
    
 
