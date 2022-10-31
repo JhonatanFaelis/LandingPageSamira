@@ -171,13 +171,17 @@
 
 /*Inicio sessao 4 - */
 
+.container-sessao4{
+    margin-top: 10px;
+}
+
 .container-produto2{
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: 1px solid #000B41;
     border-radius: 5px;
-    margin: 5px 0;
+    margin-top: 5px;
 }
 
 .sessao4-textos {
