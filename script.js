@@ -37,7 +37,7 @@ const maxItems2 = elemento2.length;
 
 control2.forEach(control2 => {
 control2.addEventListener('click', () =>{
-    const isLeft2 = control2.classList.contains2('arrow-left2');
+    const isLeft2 = control2.classList.contains('arrow-left2');
         if (isLeft2){
             currentItem2 -=1;
         } else {
