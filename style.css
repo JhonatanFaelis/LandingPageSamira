@@ -65,6 +65,16 @@
     padding: 15px 0;
 }
 
+/*FINAL SESSAO2*/
+
+/* INICIO SESSAO 3*/
+
+.container-produto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 @media screen and (max-width: 758px) {
     .container-header h1{
         font-size: 35px;
