@@ -171,6 +171,103 @@
 
 /*Inicio sessao 4 - */
 
+.container-produto2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #000B41;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.sessao4-textos {
+    max-width: 470px;
+    color: #000B41;
+    
+}
+
+.sessao4-textos >h1, h3, h4{
+    padding: 10px 0;
+}
+
+.sessao4-textos > h2{
+    color: #FD9C38;
+}
+
+.container-produto2{
+    position: relative;
+    padding: 5px;
+    margin: 0 auto;
+    
+}
+
+.gallery2{
+    align-items: center;
+    display: flex;
+    max-width: 540px;
+    flex-wrap: nowrap;
+    gap: 5px;
+    margin-top: 25px;
+}
+
+/*Fazer ter uma barra de rolagem aqui.*/
+.gallery-wrapper2{
+    overflow-x: auto;
+}
+
+
+.arrow-left2, .arrow-right2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+
+.arrow-right2{
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+
+}
+
+.arrow-left2:hover, .arrow-right2:hover{
+    opacity: 1;
+}
+
+.elemento2{
+    align-items: center;
+    width: 380px;
+    height: 350px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    transition: all 600ms ease-in-out;
+}
+
+
+
+.current-element2{
+    opacity: 1;
+}
+
+.elemento2 p{
+    color: black;
+    text-align: center;
+
+}
+
 @media screen and (max-width: 758px) {
     .container-header h1{
         font-size: 35px;
@@ -222,4 +319,19 @@
     .sessao3-textos{
         text-align: center;
     }
+
+    .container-produto2{
+        flex-wrap: wrap;
+    }
+
+    .container-produto2 img{
+        max-width: 350px;
+        text-align: center;
+    }
+
+    .sessao3-textos2{
+        text-align: center;
+    }
+
+
 }
