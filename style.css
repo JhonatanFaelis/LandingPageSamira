@@ -498,10 +498,19 @@
         text-align: center;
     }
   
-    .sessao5-textos a{
+    .sessao5-textos button{
         width: 100%;
       
     }
 
+    .sessao4-textos button{
+        width: 100%;
+      
+    }
+
+    .sessao3-textos button{
+        width: 100%;
+      
+    }
 
 }
