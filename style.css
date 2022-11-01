@@ -62,8 +62,10 @@
 }
 
 .container-sessao2 >h2{
+    max-width: 350px;
     color: #FD9C38;
     padding: 15px 0;
+    margin: auto;
 }
 
 /*FINAL SESSAO2*/
