@@ -464,6 +464,11 @@ footer button{
     font-weight: 600;
 }
 
+footer button:hover{
+    font-weight: 600;
+    color: #000B41;
+}
+
 
 @media screen and (max-width: 758px) {
     .container-header h1{
