@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Header*/
 
 .container-header{
-    background-color: #000B41;
+    background-image: url(./img/cidade-bg.png);
+    background-position: center;
     text-align: center;
     
 }
@@ -28,7 +29,7 @@
 
 .container-header >h4{
     text-transform: uppercase;
-    color: #FD9C38;
+    color: #FFB600;
     padding-bottom: 25px;
 }
 
@@ -42,9 +43,11 @@
     justify-content: space-around;
 }
 
-.container-sessao1 >li{
+.container-sessao1 li{
     color: #000B41;
     font-size: 30px;
+    max-width: 350px;
+    margin: auto;
 }
 
 /*FIM SESSAO 1*/
@@ -63,7 +66,7 @@
 
 .container-sessao2 >h2{
     max-width: 350px;
-    color: #FD9C38;
+    color: #FFB600;
     padding: 15px 0;
     margin: auto;
 }
@@ -90,7 +93,7 @@
 
 
 .sessao3-textos > h2{
-    color: #FD9C38;
+    color: #FFB600;
 }
 
 .sessao3-textos button{
@@ -106,7 +109,7 @@
 }
 
 .sessao3-textos button:hover{
-    background-color: #FD9C38;
+    background-color: #FFB600;
 }
 .sessao3-textos button, a{
     text-decoration: none;
@@ -214,7 +217,7 @@
 
 
 .sessao4-textos > h2{
-    color: #FD9C38;
+    color: #FFB600;
 }
 
 .sessao4-textos button{
@@ -230,7 +233,7 @@
 }
 
 .sessao4-textos button:hover{
-    background-color: #FD9C38;
+    background-color: #FFB600;
 }
 .sessao4-textos button, a{
     text-decoration: none;
@@ -338,7 +341,7 @@
 }
 
 .sessao5-textos > h2{
-    color: #FD9C38;
+    color: #FFB600;
 }
 
 .sessao5-textos button{
@@ -354,7 +357,7 @@
 }
 
 .sessao5-textos button:hover{
-    background-color: #FD9C38;
+    background-color: #FFB600;
 }
 .sessao5-textos button, a{
     text-decoration: none;
@@ -433,6 +436,34 @@
     text-align: center;
 
 }
+
+footer{
+    background-color: #000B41;
+    text-align: center;
+}
+
+footer h1{
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer h2{
+    color: #FFB600;
+    margin-bottom: 10px;
+}
+
+footer button{
+    color: white;
+    background-color: #FFB600;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
 
 @media screen and (max-width: 758px) {
     .container-header h1{
@@ -513,6 +544,14 @@
     .sessao3-textos button{
         width: 100%;
       
+    }
+
+    footer h1{
+        font-size: 20Px;
+    }
+
+    footer h2{
+        font-size: 18px;
     }
 
 }
