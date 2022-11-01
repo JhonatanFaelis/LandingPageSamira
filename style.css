@@ -91,11 +91,11 @@
     color: #FD9C38;
 }
 
-.sessao3-textos a{
+.sessao3-textos button{
     color: white;
     background-color: #000B41;
-    
-    padding: 15px 45px;
+    width: 90%;
+    padding: 15px 0;
     border-radius: 10px;
     border: none;
     cursor: pointer;
@@ -103,10 +103,10 @@
     font-weight: 600;
 }
 
-.sessao3-textos a:hover{
+.sessao3-textos button:hover{
     background-color: #FD9C38;
 }
-.sessao3-textos a{
+.sessao3-textos button, a{
     text-decoration: none;
     color: white;
 }
@@ -215,11 +215,11 @@
     color: #FD9C38;
 }
 
-.sessao4-textos a{
+.sessao4-textos button{
     color: white;
     background-color: #000B41;
-    margin-top: 10px;
-    padding: 15px 45px;
+    width: 90%;
+    padding: 15px 0;
     border-radius: 10px;
     border: none;
     cursor: pointer;
@@ -227,10 +227,10 @@
     font-weight: 600;
 }
 
-.sessao4-textos a:hover{
+.sessao4-textos button:hover{
     background-color: #FD9C38;
 }
-.sessao4-textos a{
+.sessao4-textos button, a{
     text-decoration: none;
     color: white;
 }
@@ -339,11 +339,11 @@
     color: #FD9C38;
 }
 
-.sessao5-textos a{
+.sessao5-textos button{
     color: white;
     background-color: #000B41;
-    margin-top: 10px;
-    padding: 15px 45px;
+    width: 90%;
+    padding: 15px 0;
     border-radius: 10px;
     border: none;
     cursor: pointer;
@@ -351,10 +351,10 @@
     font-weight: 600;
 }
 
-.sessao5-textos a:hover{
+.sessao5-textos button:hover{
     background-color: #FD9C38;
 }
-.sessao5-textos a{
+.sessao5-textos button, a{
     text-decoration: none;
     color: white;
 }
