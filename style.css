@@ -93,6 +93,27 @@
     color: #FD9C38;
 }
 
+.sessao3-textos a{
+    color: white;
+    background-color: #000B41;
+    margin-top: 10px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sessao3-textos a:hover{
+    background-color: #FD9C38;
+}
+.sessao3-textos a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .container-produto{
     position: relative;
     padding: 5px;
@@ -198,6 +219,26 @@
     color: #FD9C38;
 }
 
+.sessao4-textos a{
+    color: white;
+    background-color: #000B41;
+    margin-top: 10px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sessao4-textos a:hover{
+    background-color: #FD9C38;
+}
+.sessao4-textos a{
+    text-decoration: none;
+    color: white;
+}
+
 .container-produto2{
     position: relative;
     padding: 5px;
@@ -295,13 +336,32 @@
 }
 
 .sessao5-textos >h1, h3, h4{
-    padding: 10px 0;
+    margin-bottom: 20px;
 }
 
 .sessao5-textos > h2{
     color: #FD9C38;
 }
 
+.sessao5-textos a{
+    color: white;
+    background-color: #000B41;
+    margin-top: 10px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sessao5-textos a:hover{
+    background-color: #FD9C38;
+}
+.sessao5-textos a{
+    text-decoration: none;
+    color: white;
+}
 .container-produto3{
     position: relative;
     padding: 5px;
@@ -442,7 +502,10 @@
         text-align: center;
     }
   
-   
+    .sessao5-textos a{
+        width: 100%;
+      
+    }
 
 
 }
