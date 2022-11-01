@@ -560,3 +560,17 @@ footer button:hover{
     }
 
 }
+
+@media screen and (max-width: 568px) {
+    .arrow-left, .arrow-right{
+        display: none;
+    }
+
+    .arrow-left2, .arrow-right2{
+        display: none;
+    }
+
+    .arrow-left3, .arrow-right3{
+        display: none;
+    }
+}
